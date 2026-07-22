@@ -186,7 +186,7 @@ strong {
 }
 
 .section-title {
-    font-size: 2.2rem;
+    font-size: clamp(1.8rem, 6vw, 2.2rem);
     margin-bottom: 16px;
     position: relative;
 }
@@ -461,7 +461,7 @@ strong {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 9.5vw, 3.5rem);
     font-weight: 800;
     letter-spacing: 0.05em;
     margin-bottom: 16px;
@@ -740,7 +740,7 @@ strong {
 
 .callout-quote {
     font-family: var(--font-cursive);
-    font-size: 2.8rem;
+    font-size: clamp(2rem, 7vw, 2.8rem);
     color: var(--color-bg-base);
     line-height: 1.2;
     text-shadow: 0 2px 8px rgba(0,0,0,0.2);
